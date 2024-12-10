@@ -1,4 +1,4 @@
-FROM shinsenter/magento:php8.1
+FROM shinsenter/magento:php8.1-alpine
 
 ADD --chown=$APP_USER:$APP_GROUP ./src/ /var/www/html/
 
